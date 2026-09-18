@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EduSrishti University | Student & Admin Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><span>EduSrishti University • Digital Campus</span><span>📞 9650898719 &nbsp; ✉ edusrishti@gmail.com</span></div></header>
+<nav><div class="wrap nav"><a href="#home" class="brand"><img src="logo.png"><div><b>EduSrishti</b><small>UNIVERSITY</small></div></a><button id="menu">☰</button><div id="links"><a href="#home">Home</a><a href="#courses">Courses</a><a href="#admission">Admission</a><a href="#fees">Pay Fees</a><button class="navlogin" data-role="Student">Student Login</button><button class="navlogin admin" data-role="Admin">Admin Login</button></div></div></nav>
+
+<main id="public">
+<section id="home" class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">LEARN • GROW • ACHIEVE</p><h1>One platform for your <span>education journey</span></h1><p class="lead">Admissions, courses, fee payment, student services and university administration in one modern portal.</p><div class="actions"><a class="btn primary" href="#admission">Apply Now</a><a class="btn outline" href="#courses">Explore Courses</a><button class="btn gold" data-role="Student">Student Portal</button></div></div><div class="hero-card"><img src="logo.png"><h3>Admissions 2026–27</h3><p>UG • PG • Diploma • Professional Programs</p><button class="btn primary full" data-role="Student">Login to Portal</button></div></div></section>
+
+<section id="courses" class="section alt"><div class="wrap"><div class="head"><span>ACADEMICS</span><h2>Courses & Programs</h2><p>Explore major program categories.</p></div><div class="course-grid">
+<div>BA</div><div>B.Com</div><div>B.Sc</div><div>BBA</div><div>BCA</div><div>B.Tech</div><div>MBA</div><div>MCA</div><div>M.Tech</div><div>MBBS</div><div>B.Pharm</div><div>LLB</div><div>BA LLB</div><div>B.Ed</div><div>BJMC</div><div>BHM</div><div>AI & Machine Learning</div><div>Data Science</div><div>Cyber Security</div><div>Digital Marketing</div>
+</div></div></section>
+
+<section id="admission" class="section"><div class="wrap split"><div class="head left"><span>ADMISSION</span><h2>Online Admission</h2><p>Start your application through the digital admission workflow.</p><ul><li>Choose your program</li><li>Complete student details</li><li>Submit documents</li><li>Track application status</li></ul></div><form class="form" id="admissionForm"><input required placeholder="Student Name"><input required placeholder="Mobile Number"><input required type="email" placeholder="Email"><select required><option value="">Select Course</option><option>BCA</option><option>BBA</option><option>B.Tech</option><option>B.Com</option><option>MBA</option><option>MCA</option></select><button class="btn primary full">Submit Application</button><p class="note">Demo workflow.</p></form></div></section>
+
+<section id="fees" class="section alt"><div class="wrap split"><div class="head left"><span>FEES</span><h2>Online Fee Payment</h2><p>Students can review fee dues and start a payment flow from their dashboard.</p><div class="fee"><span>Tuition Fee</span><b>₹45,000</b></div><div class="fee"><span>Examination Fee</span><b>₹2,500</b></div></div><div class="form"><h3>Quick Payment</h3><input placeholder="Enrollment / Application No."><select><option>Tuition Fee</option><option>Examination Fee</option><option>Registration Fee</option></select><input type="number" placeholder="Amount (₹)"><button class="btn primary full" id="quickPay">Proceed to Payment</button><p class="note">Demo only. No real money is collected.</p></div></div></section>
+</main>
+
+<section id="portal" class="portal hidden"></section>
+
+<div id="login" class="modal"><div class="modalbox"><button id="close">×</button><img src="logo.png"><h2 id="loginTitle">Student Login</h2><label>User ID</label><input id="uid" placeholder="Enter User ID"><label>Password</label><input id="pwd" type="password" placeholder="Enter Password"><button id="loginBtn" class="btn primary full">Login</button><p class="note">Use the demo credentials shown below.</p><div class="credentials" id="cred"></div></div></div>
+<div id="toast" class="toast"></div>
+<footer><div class="wrap"><b>EduSrishti University</b><p>9650898719 • edusrishti@gmail.com</p></div><div class="copy">© 2026 EduSrishti • Demo portal</div></footer>
+<script src="script.js"></script>
+</body></html>
